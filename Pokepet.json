@@ -443,6 +443,14 @@
           "identifier": "https://project-resources.gdevelop.io/bbfe174b-f136-4538-bdbf-c83e697784b1/resources/0dc652a81404705e132cbfd8d3773cf9f4b2d0c1b33357b3ab5ebaba0357bd66-bcd389d0-dd6b-4cb2-bc4a-27c783828674.mp4",
           "name": "cloud-project-resource"
         }
+      },
+      {
+        "file": "9acb65f30e0adcaefabbadcb173283f26b5ddb80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9acb65f30e0adcaefabbadcb173283f26b5ddb80.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3416,7 +3424,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047024383,
+        "zoomFactor": 0.5290357402156947,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3451,6 +3459,23 @@
           "x": 30,
           "y": 30,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 580,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "181edec4-0f99-4658-a476-82ccbfb59aa7",
+          "width": 629,
+          "x": 44,
+          "y": 105,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3626,6 +3651,66 @@
               "width": 256
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "9acb65f30e0adcaefabbadcb173283f26b5ddb80.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 68,
+                            "y": 95
+                          },
+                          {
+                            "x": 230,
+                            "y": 95
+                          },
+                          {
+                            "x": 230,
+                            "y": 200
+                          },
+                          {
+                            "x": 68,
+                            "y": 200
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3636,6 +3721,9 @@
           },
           {
             "objectName": "Yellow_Back"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -3732,6 +3820,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
