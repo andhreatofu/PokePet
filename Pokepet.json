@@ -523,6 +523,54 @@
         "name": "red_hover_btn_pressed",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "684b792695c24586a74ae3d09efbab4df2e6c3e9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "684b792695c24586a74ae3d09efbab4df2e6c3e9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewPanelSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewPanelSprite4.png\"}",
+        "name": "NewPanelSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/slot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "slot",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/slot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "slot2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/slot3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/slot3.png\"}",
+        "name": "slot3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shadow.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "shadow",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1685,15 +1733,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 130,
       "disableInputWhenNotFocused": true,
       "mangledName": "main",
       "name": "main",
-      "r": 209,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 230,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -1787,8 +1835,8 @@
           "name": "import_notes",
           "persistentUuid": "d69c766b-94e9-4fd0-8cb3-6650bb587655",
           "width": 244,
-          "x": 406,
-          "y": 670,
+          "x": 392,
+          "y": 668,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3177,7 +3225,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047024383,
+        "zoomFactor": 0.7130377630690546,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3212,6 +3260,38 @@
           "x": 30,
           "y": 30,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.7142857142857143,
+          "height": 285,
+          "layer": "",
+          "name": "NewPanelSprite3",
+          "persistentUuid": "68e31f98-bb9e-4aca-b530-8f4ba25c8613",
+          "width": 305,
+          "x": 37,
+          "y": 192,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 299,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "b95ad0db-c380-4447-bbea-e478211fc008",
+          "width": 319,
+          "x": 373,
+          "y": 185,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3387,6 +3467,57 @@
               "width": 256
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NewPanelSprite2",
+          "rightMargin": 0,
+          "texture": "slot3",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NewPanelSprite3",
+          "rightMargin": 0,
+          "texture": "684b792695c24586a74ae3d09efbab4df2e6c3e9.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 6,
+                "distance": 4,
+                "padding": 1,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -3397,14 +3528,41 @@
           },
           {
             "objectName": "Yellow_Back"
+          },
+          {
+            "objectName": "NewPanelSprite2"
+          },
+          {
+            "objectName": "NewPanelSprite3"
           }
         ]
       },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "Yellow_Back",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"main\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -4255,6 +4413,37 @@
                 "Animation",
                 "=",
                 "\"pressed\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "Yellow_Back",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"main\"",
+                ""
               ]
             }
           ]
