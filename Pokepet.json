@@ -1,7 +1,7 @@
 {
   "firstLayout": "opening",
   "gdVersion": {
-    "build": 231,
+    "build": 233,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -709,6 +709,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
           "name": "CantoraOne-Regular.ttf"
         }
+      },
+      {
+        "file": "pngegg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pngegg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pngeggclicked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pngeggclicked.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -962,7 +978,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "L O G I N",
+              "string": "S T A R T",
               "font": "ArchitectsDaughter.ttf",
               "textAlignment": "center",
               "characterSize": 30,
@@ -985,7 +1001,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "L O G I N",
+                "text": "S T A R T",
                 "font": "ArchitectsDaughter.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
@@ -1281,8 +1297,29 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "DecoratedButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"user log in\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -1403,57 +1440,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "username",
-          "persistentUuid": "ea524b9a-01a9-44c9-abf0-2cb4e63dbca2",
-          "width": 560,
-          "x": 87,
-          "y": 838,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "password",
-          "persistentUuid": "453634b8-6b36-444b-bd52-841752903995",
-          "width": 505,
-          "x": 117,
-          "y": 932,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 88,
-          "keepRatio": true,
-          "layer": "",
-          "name": "login_button",
-          "persistentUuid": "4479980a-2d68-4271-9428-4ce438136310",
-          "width": 192,
-          "x": 273,
-          "y": 1084,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -1464,6 +1450,81 @@
           "x": 26,
           "y": 30,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Username",
+          "persistentUuid": "da231717-1bb0-44e6-a345-2cc1040544ae",
+          "width": 454,
+          "x": 148,
+          "y": 815,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Password",
+          "persistentUuid": "67bbfe2a-9643-43c8-9c1d-acaff485eb87",
+          "width": 457,
+          "x": 150,
+          "y": 883,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "initialValue",
+              "value": ""
+            },
+            {
+              "name": "placeholder",
+              "value": "Input Password"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DecoratedButton",
+          "persistentUuid": "8ee32b7c-af9d-445c-8062-7c59dab55ac4",
+          "width": 0,
+          "x": 284,
+          "y": 1037,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 50.58064516129033,
+          "height": 196,
+          "layer": "",
+          "name": "BackButton",
+          "persistentUuid": "c8e93b8e-24ce-4869-9eed-913304d27b05",
+          "width": 196,
+          "x": -25,
+          "y": -13,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1715,65 +1776,221 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "back_button",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "name": "Username",
+          "type": "TextInput::TextInputObject",
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 8
-                          },
-                          {
-                            "x": 59,
-                            "y": 8
-                          },
-                          {
-                            "x": 59,
-                            "y": 53
-                          },
-                          {
-                            "x": 4,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
+          "content": {
+            "initialValue": "",
+            "placeholder": "Input Username",
+            "fontResourceName": "",
+            "fontSize": 30,
+            "inputType": "text",
+            "textColor": "0;0;0",
+            "fillColor": "255;255;255",
+            "fillOpacity": 255,
+            "borderColor": "0;0;0",
+            "borderOpacity": 255,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false,
+            "paddingX": 2,
+            "paddingY": 1,
+            "textAlign": "left",
+            "maxLength": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Password",
+          "type": "TextInput::TextInputObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "initialValue": "",
+            "placeholder": "Input Password",
+            "fontResourceName": "",
+            "fontSize": 30,
+            "inputType": "password",
+            "textColor": "0;0;0",
+            "fillColor": "255;255;255",
+            "fillOpacity": 255,
+            "borderColor": "0;0;0",
+            "borderOpacity": 255,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false,
+            "paddingX": 2,
+            "paddingY": 1,
+            "textAlign": "left",
+            "maxLength": 0
+          }
+        },
+        {
+          "assetStoreId": "d907b5df38595e6d3f128058fbb3dbd0861f86505cc6d7bf9859ddcc3eceeb1f",
+          "name": "DecoratedButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 6,
+            "BottomPadding": 24,
+            "TopPadding": 20,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 22,
+              "height": 64,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "White Decorated Button_Hovered.png2",
+              "tiled": false,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 22,
+              "height": 64,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "White Decorated Button_Idle.png2",
+              "tiled": false,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Label": {
+              "bold": true,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "L O G I N",
+              "font": "ArchitectsDaughter.ttf",
+              "textAlignment": "center",
+              "characterSize": 25,
+              "color": {
+                "b": 14,
+                "g": 101,
+                "r": 146
+              },
+              "content": {
+                "bold": true,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "L O G I N",
+                "font": "ArchitectsDaughter.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 25,
+                "color": "146;101;14"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 64,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "White_Pressed.png5",
+              "tiled": false,
+              "topMargin": 22,
+              "width": 192
             }
-          ]
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "BackButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "pngegg.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "pngegg.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "pngeggclicked.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -1786,17 +2003,140 @@
             "objectName": "username"
           },
           {
+            "objectName": "Username"
+          },
+          {
+            "objectName": "Password"
+          },
+          {
             "objectName": "password"
           },
           {
             "objectName": "login_button"
           },
           {
-            "objectName": "back_button"
+            "objectName": "DecoratedButton"
+          },
+          {
+            "objectName": "BackButton"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "360",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "640",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "DecoratedButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "Username",
+                "Text",
+                "=",
+                "\"user\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "Password",
+                "Text",
+                "=",
+                "\"user\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"main\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "BackButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"opening\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -1867,6 +2207,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -1890,7 +2234,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41943397827590695,
+        "zoomFactor": 0.3437520241612324,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2551,7 +2895,47 @@
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "360",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "640",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -8820,8 +9204,6 @@
               "type": "Boolean",
               "label": "",
               "description": "Should check hovering",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ShouldCheckHovering"
             },
@@ -8829,8 +9211,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Idle",
                 "Hovered",
@@ -8845,9 +9225,6 @@
               "value": "0",
               "type": "Number",
               "label": "Touch id",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchId"
             },
@@ -8855,9 +9232,6 @@
               "value": "",
               "type": "Boolean",
               "label": "Touch is inside",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchIsInside"
             },
@@ -8865,9 +9239,6 @@
               "value": "",
               "type": "Boolean",
               "label": "Mouse is inside",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "MouseIsInside"
             },
@@ -8875,9 +9246,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "Index"
             }
@@ -10370,16 +10738,12 @@
               "value": "0",
               "type": "Number",
               "label": "Label offset on Y axis when pressed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "PressedLabelOffsetY"
             },
             {
               "value": "0",
               "type": "Number",
               "label": "Left padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -10390,7 +10754,6 @@
               "value": "0",
               "type": "Number",
               "label": "Right padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -10401,7 +10764,6 @@
               "value": "0",
               "type": "Number",
               "label": "Top padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -10412,7 +10774,6 @@
               "value": "0",
               "type": "Number",
               "label": "Bottom padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -10423,9 +10784,6 @@
               "value": "0.25",
               "type": "Number",
               "label": "Hovered fade out duration (in seconds)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "HoveredFadeOutDuration"
             }
           ],
@@ -11333,17 +11691,12 @@
               "unit": "Second",
               "label": "Half period ",
               "description": "Time that the object is invisible",
-              "group": "",
-              "extraInformation": [],
               "name": "HalfPeriodTime"
             },
             {
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "IsFlashing"
             },
@@ -11353,8 +11706,6 @@
               "unit": "Second",
               "label": "Flash duration",
               "description": "Use \"0\" to keep flashing until stopped",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "FlashDuration"
             }
@@ -11907,17 +12258,12 @@
               "unit": "Second",
               "label": "Half period",
               "description": "Time between flashes",
-              "group": "",
-              "extraInformation": [],
               "name": "HalfPeriodTime"
             },
             {
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "IsFlashing"
             },
@@ -11927,8 +12273,6 @@
               "unit": "Second",
               "label": "Flash duration",
               "description": "Use \"0\" to keep flashing until stopped",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "FlashDuration"
             },
@@ -11936,9 +12280,6 @@
               "value": "\"255;255;255\"",
               "type": "String",
               "label": "Tint color",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TintColor"
             }
@@ -12538,8 +12879,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Opacity capability",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "OpacityCapability::OpacityBehavior"
               ],
@@ -12549,8 +12888,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Tween Behavior (required)",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
@@ -12562,17 +12899,12 @@
               "unit": "Second",
               "label": "Half period",
               "description": "Time between flashes",
-              "group": "",
-              "extraInformation": [],
               "name": "HalfPeriodTime"
             },
             {
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "IsFlashing"
             },
@@ -12582,8 +12914,6 @@
               "unit": "Second",
               "label": "Flash duration",
               "description": "Use \"0\" to keep flashing until stopped",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "FlashDuration"
             },
@@ -12593,8 +12923,6 @@
               "unit": "Dimensionless",
               "label": "Target opacity (Range: 0 - 255)",
               "description": "Opacity will fade between the starting value and a target value",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TargetOpacity"
             },
@@ -12604,8 +12932,6 @@
               "unit": "Dimensionless",
               "label": "Starting opacity",
               "description": "Opacity will fade between the starting value and a target value",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "StartingOpacity"
             }
@@ -13420,8 +13746,6 @@
               "value": "",
               "type": "Behavior",
               "label": "Effect capability",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
@@ -13433,17 +13757,12 @@
               "unit": "Second",
               "label": "Half period",
               "description": "Time between flashes",
-              "group": "",
-              "extraInformation": [],
               "name": "HalfPeriodTime"
             },
             {
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "IsFlashing"
             },
@@ -13453,8 +13772,6 @@
               "unit": "Second",
               "label": "Flash duration",
               "description": "Use \"0\" to keep flashing until stopped",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "FlashDuration"
             },
@@ -13462,9 +13779,6 @@
               "value": "",
               "type": "String",
               "label": "Name of effect",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "EffectName"
             }
