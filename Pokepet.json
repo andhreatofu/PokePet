@@ -571,6 +571,50 @@
         "name": "shadow",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/slot_pressed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "slot_pressed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Green Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/bff6adc488c7379b21ceba34e9104e861791b2fbb54b4aae167fe90115b92fa3_Green Button_Hovered.png",
+          "name": "Green Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Green Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f46d20e99495562ee66ee2f26defdb0788588184bd30b1f7b951ae728ce63d2a_Green Button_Idle.png",
+          "name": "Green Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Green Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
+          "name": "Green Button_Pressed.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2488,22 +2532,246 @@
       ]
     },
     {
-      "b": 209,
+      "b": 215,
       "disableInputWhenNotFocused": true,
       "mangledName": "knowledge_32tester",
       "name": "knowledge tester",
-      "r": 209,
+      "r": 213,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
-      "uiSettings": {},
+      "v": 252,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4950840073748891,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 98.4375,
+          "height": 100,
+          "layer": "",
+          "name": "GreenButton_title",
+          "persistentUuid": "31781b5b-9308-4449-afb0-4bbe1ab1e95a",
+          "width": 525,
+          "x": 157,
+          "y": 30,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 18.75,
+          "height": 100,
+          "layer": "",
+          "name": "GreenButton_Back",
+          "persistentUuid": "22156d6d-0b9d-4750-8232-711e1ff86a06",
+          "width": 100,
+          "x": 30,
+          "y": 30,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+          "name": "GreenButton_title",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 0,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Idle.png",
+              "tiled": false,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Idle.png",
+              "tiled": false,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "REVIEW",
+              "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 60,
+              "color": {
+                "b": 30,
+                "g": 46,
+                "r": 37
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "REVIEW",
+                "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 60,
+                "color": "37;46;30"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Idle.png",
+              "tiled": false,
+              "topMargin": 32,
+              "width": 256
+            }
+          }
+        },
+        {
+          "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+          "name": "GreenButton_Back",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 10,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Hovered.png",
+              "tiled": false,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Idle.png",
+              "tiled": false,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "↶",
+              "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 60,
+              "color": {
+                "b": 26,
+                "g": 49,
+                "r": 37
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "↶",
+                "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 60,
+                "color": "37;49;26"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Green Button_Pressed.png",
+              "tiled": false,
+              "topMargin": 32,
+              "width": 256
+            }
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "GreenButton_title"
+          },
+          {
+            "objectName": "GreenButton_Back"
+          }
+        ]
       },
       "events": [],
       "layers": [
@@ -2552,7 +2820,28 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
     },
     {
       "b": 247,
@@ -2574,7 +2863,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.26364576737708695,
+        "zoomFactor": 1.2952916551236258,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3225,7 +3514,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7130377630690546,
+        "zoomFactor": 0.4950840073749009,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3267,14 +3556,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0.7142857142857143,
-          "height": 285,
+          "depth": 1,
+          "height": 180,
           "layer": "",
           "name": "NewPanelSprite3",
           "persistentUuid": "68e31f98-bb9e-4aca-b530-8f4ba25c8613",
-          "width": 305,
+          "width": 200,
           "x": 37,
-          "y": 192,
+          "y": 190,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3284,14 +3573,446 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 299,
+          "height": 180,
           "layer": "",
           "name": "NewPanelSprite2",
           "persistentUuid": "b95ad0db-c380-4447-bbea-e478211fc008",
-          "width": 319,
-          "x": 373,
-          "y": 185,
+          "width": 200,
+          "x": 257,
+          "y": 190,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "291fd4f4-7193-4e44-8573-d333ce1843e8",
+          "width": 200,
+          "x": 477,
+          "y": 190,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "4ea820db-3c74-43b7-a0be-16cd9dadcae2",
+          "width": 200,
+          "x": 37,
+          "y": 390,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "ed89eec7-b36d-48ff-9148-73db68069eb5",
+          "width": 200,
+          "x": 257,
+          "y": 390,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "41b6ded5-c9e2-4c28-b2a7-110f282e7bbf",
+          "width": 200,
+          "x": 477,
+          "y": 390,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "49c80469-2314-47bb-9a7a-f7ba47145991",
+          "width": 200,
+          "x": 257,
+          "y": 590,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "2adfc314-5989-4da0-9d26-743893ccf538",
+          "width": 200,
+          "x": 477,
+          "y": 590,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "2c02b24c-2ecd-40ea-98a8-1b74d2b3acc0",
+          "width": 200,
+          "x": 37,
+          "y": 590,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "dcf6c41d-55da-41dc-878a-fac1f2d1e4e1",
+          "width": 200,
+          "x": 37,
+          "y": 990,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "906113c7-d530-4c7e-ab44-613a9c27b3d9",
+          "width": 200,
+          "x": 257,
+          "y": 990,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "3acb5bd6-847a-4cd2-92d6-d00bfc78ae04",
+          "width": 200,
+          "x": 477,
+          "y": 990,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "f6807b23-2212-4894-8d0e-ac595e471f43",
+          "width": 200,
+          "x": 477,
+          "y": 790,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "c2e0a188-9c5a-4b72-a194-88ba09e5e439",
+          "width": 200,
+          "x": 257,
+          "y": 790,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 180,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "192ce99f-7d3c-4396-b392-e2777538e75f",
+          "width": 200,
+          "x": 37,
+          "y": 790,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText2",
+          "persistentUuid": "6c2f0519-0f23-4273-9d2a-edd9864f66dd",
+          "width": 0,
+          "x": 335,
+          "y": 236,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText3",
+          "persistentUuid": "6226bb18-0067-45fd-9937-3d27e36e42ff",
+          "width": 0,
+          "x": 555,
+          "y": 236,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText4",
+          "persistentUuid": "84dd7922-7931-45b2-a085-1a36dcc20b51",
+          "width": 0,
+          "x": 115,
+          "y": 436,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText5",
+          "persistentUuid": "ef928016-99b6-4763-8a08-827dad1e43eb",
+          "width": 0,
+          "x": 335,
+          "y": 436,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText6",
+          "persistentUuid": "e7dd84d8-8f86-4d39-944d-ab2898950688",
+          "width": 0,
+          "x": 555,
+          "y": 436,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText7",
+          "persistentUuid": "a1576489-cd92-49be-8e1a-fc5c9ae11eb7",
+          "width": 0,
+          "x": 115,
+          "y": 636,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText10",
+          "persistentUuid": "1bbe492b-628d-4740-b31b-9e80d108ad77",
+          "width": 0,
+          "x": 92,
+          "y": 836,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText13",
+          "persistentUuid": "9dca8799-3a81-4852-9c9d-b90f2e5732ae",
+          "width": 0,
+          "x": 92,
+          "y": 1036,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText8",
+          "persistentUuid": "d7fd7c42-565b-4333-841c-cff13fd852ed",
+          "width": 0,
+          "x": 335,
+          "y": 636,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText9",
+          "persistentUuid": "051b3db2-0881-477c-8967-603ad200bd4b",
+          "width": 0,
+          "x": 555,
+          "y": 636,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText11",
+          "persistentUuid": "163bda56-ef99-4f8a-96f5-fc3cb0e72f4e",
+          "width": 0,
+          "x": 316,
+          "y": 836,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText12",
+          "persistentUuid": "67076d1f-c650-499a-8159-47d22bfefa0e",
+          "width": 0,
+          "x": 534,
+          "y": 836,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText14",
+          "persistentUuid": "16f1da0f-b3a3-4d26-b9d8-d80164f8c19c",
+          "width": 0,
+          "x": 312,
+          "y": 1036,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText15",
+          "persistentUuid": "e7e80f0b-209f-4acb-859c-d7e06325794b",
+          "width": 0,
+          "x": 531,
+          "y": 1036,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3505,7 +4226,7 @@
                 "alpha": 1,
                 "blur": 6,
                 "distance": 4,
-                "padding": 1,
+                "padding": 3,
                 "quality": 3,
                 "rotation": 0
               },
@@ -3518,11 +4239,844 @@
             }
           ],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "2",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "2",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "3",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "3",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "4",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "4",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "5",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "5",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText6",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "6",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "6",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText7",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "7",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "7",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText8",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "8",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "8",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText9",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "9",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "9",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText10",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "10",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "10",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText11",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "11",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "11",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText12",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "12",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "12",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText13",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "13",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "13",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText14",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "14",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "14",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText15",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "69;75;163"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "15",
+          "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "15",
+            "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "pressed",
+          "rightMargin": 0,
+          "texture": "slot_pressed",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "textnumbers",
+            "children": [
+              {
+                "objectName": "NewText15"
+              },
+              {
+                "objectName": "NewText14"
+              },
+              {
+                "objectName": "NewText13"
+              },
+              {
+                "objectName": "NewText12"
+              },
+              {
+                "objectName": "NewText11"
+              },
+              {
+                "objectName": "NewText10"
+              },
+              {
+                "objectName": "NewText9"
+              },
+              {
+                "objectName": "NewText8"
+              },
+              {
+                "objectName": "NewText7"
+              },
+              {
+                "objectName": "NewText6"
+              },
+              {
+                "objectName": "NewText5"
+              },
+              {
+                "objectName": "NewText4"
+              },
+              {
+                "objectName": "NewText3"
+              },
+              {
+                "objectName": "NewText2"
+              }
+            ]
+          },
           {
             "objectName": "Yellow_Title"
           },
@@ -3531,6 +5085,9 @@
           },
           {
             "objectName": "NewPanelSprite2"
+          },
+          {
+            "objectName": "pressed"
           },
           {
             "objectName": "NewPanelSprite3"
@@ -3563,6 +5120,28 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewPanelSprite2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -3631,6 +5210,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -4756,6 +6339,176 @@
               "width": 256
             }
           }
+        },
+        {
+          "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
+          "name": "Purple_Title2",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 0,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Purple_back",
+              "tiled": false,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Purple_back",
+              "tiled": false,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "IMPORT NOTES",
+              "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 45,
+              "color": {
+                "b": 255,
+                "g": 205,
+                "r": 232
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "IMPORT NOTES",
+                "font": "8b0d1ec85976ddfda9a6503704732614b7f6ed70ddad232e0c55f98723b3468d_MochiyPopPOne-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 45,
+                "color": "232;205;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Purple_back",
+              "tiled": false,
+              "topMargin": 32,
+              "width": 256
+            }
+          }
+        },
+        {
+          "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
+          "name": "Purple_Back2",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 10,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Purple_Hovered.png",
+              "tiled": false,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Purple_back",
+              "tiled": false,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "↶",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 60,
+              "color": {
+                "b": 255,
+                "g": 205,
+                "r": 232
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "↶",
+                "font": "",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 60,
+                "color": "232;205;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Purple_Pressed.png",
+              "tiled": false,
+              "topMargin": 32,
+              "width": 256
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4765,7 +6518,13 @@
             "objectName": "Purple_Title"
           },
           {
+            "objectName": "Purple_Title2"
+          },
+          {
             "objectName": "Purple_Back"
+          },
+          {
+            "objectName": "Purple_Back2"
           }
         ]
       },
