@@ -2709,7 +2709,7 @@
           "name": "GreyButton_Physics",
           "persistentUuid": "601155a5-26f4-475f-aab3-1c38cef11dbb",
           "width": 250,
-          "x": 374,
+          "x": 375,
           "y": 380,
           "zOrder": 4,
           "numberProperties": [],
@@ -2728,6 +2728,22 @@
           "x": 95,
           "y": 590,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 62.5,
+          "height": 180,
+          "layer": "",
+          "name": "GreyButton_English",
+          "persistentUuid": "d9ef2fd5-f695-43c5-a5a5-6925b35dbbcd",
+          "width": 250,
+          "x": 375,
+          "y": 590,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3161,7 +3177,7 @@
         },
         {
           "assetStoreId": "9cf9ca8be6e98fc23e76b6770d3f4d094dea09f30a49f38ef9a9d2e97c2460be",
-          "name": "GreyButtonWithShadow4",
+          "name": "GreyButton_English",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "",
           "variables": [],
@@ -3201,7 +3217,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "MATH",
+              "string": "ENGLISH",
               "font": "CantoraOne-Regular.ttf",
               "textAlignment": "center",
               "characterSize": 40,
@@ -3224,7 +3240,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "MATH",
+                "text": "ENGLISH",
                 "font": "CantoraOne-Regular.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
@@ -3434,7 +3450,7 @@
             "objectName": "GreyButton_Science"
           },
           {
-            "objectName": "GreyButtonWithShadow4"
+            "objectName": "GreyButton_English"
           },
           {
             "objectName": "GreyButtonWithShadow5"
