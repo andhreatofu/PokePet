@@ -992,6 +992,86 @@
         "name": "red Button_Pressed.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "import.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "import.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "import2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "import2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "import3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "import3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "TIMER.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TIMER.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "TIMER2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TIMER2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "TIMER3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TIMER3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "TIMER4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TIMER4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "TASK.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TASK.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "TESTER (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TESTER (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "GOALS.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GOALS.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2501,7 +2581,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3437520241612324,
+        "zoomFactor": 0.5290357402156853,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2560,33 +2640,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 91,
-          "keepRatio": true,
-          "layer": "",
-          "name": "timer",
-          "persistentUuid": "fd0e6a5c-2ee5-4f52-8f43-c3e499ddb4c4",
-          "width": 279,
-          "x": 76,
-          "y": 670,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
+          "depth": 765,
           "height": 510,
-          "keepRatio": true,
           "layer": "",
-          "name": "import_notes",
-          "persistentUuid": "d69c766b-94e9-4fd0-8cb3-6650bb587655",
+          "name": "Import",
+          "persistentUuid": "45f4d3d8-f197-411b-8513-a34fef701d60",
           "width": 244,
           "x": 392,
           "y": 668,
-          "zOrder": 5,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2594,16 +2656,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 157,
-          "keepRatio": true,
+          "depth": 48,
+          "height": 104,
           "layer": "",
-          "name": "tasks",
-          "persistentUuid": "01cdc8de-661e-4fa9-836e-5b62960fd24b",
-          "width": 271,
-          "x": 79,
-          "y": 1016,
-          "zOrder": 6,
+          "name": "TImer",
+          "persistentUuid": "5cc1c753-5bc7-4331-a33e-0197b00da6ab",
+          "width": 279,
+          "x": 74,
+          "y": 670,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2611,16 +2672,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 91,
-          "keepRatio": true,
+          "depth": 48,
+          "height": 159,
           "layer": "",
-          "name": "goals",
-          "persistentUuid": "565698c5-b1fc-4df1-9c9d-416ed60aeee8",
-          "width": 271,
-          "x": 79,
-          "y": 897,
-          "zOrder": 7,
+          "name": "Task",
+          "persistentUuid": "9c6a7b82-a03d-4dd0-bdfd-aff0fc8a34db",
+          "width": 279,
+          "x": 74,
+          "y": 1023,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2628,16 +2688,31 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
+          "depth": 48,
+          "height": 122,
           "layer": "",
-          "name": "tester",
-          "persistentUuid": "5d4ed41d-dbdd-4334-86ca-f8fe2cfcabf0",
-          "width": 273,
-          "x": 78,
-          "y": 776,
-          "zOrder": 8,
+          "name": "Review",
+          "persistentUuid": "b3a67a61-b3c8-4abe-bf80-e24b7d7174c4",
+          "width": 279,
+          "x": 74,
+          "y": 768,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 126,
+          "layer": "",
+          "name": "GOals",
+          "persistentUuid": "e9cb1f39-4813-4c8e-a1ab-bb4bca830879",
+          "width": 279,
+          "x": 74,
+          "y": 882,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2828,309 +2903,394 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "timer",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "name": "Import",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "import2.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "import.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "import3.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
             }
-          ]
+          }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "tasks",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "name": "TImer",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "TIMER3.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "TIMER2.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "TIMER4.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
             }
-          ]
+          }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "import_notes",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "name": "Task",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "TASK.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "TASK.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "TASK.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
             }
-          ]
+          }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "goals",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "name": "Review",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "TESTER (1).png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "TESTER (1).png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "TESTER (1).png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
             }
-          ]
+          }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "tester",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "name": "GOals",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "GOALS.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "GOALS.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "GOALS.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
             }
-          ]
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -3146,19 +3306,19 @@
             "objectName": "settings"
           },
           {
-            "objectName": "timer"
+            "objectName": "GOals"
           },
           {
-            "objectName": "tasks"
+            "objectName": "Import"
           },
           {
-            "objectName": "import_notes"
+            "objectName": "TImer"
           },
           {
-            "objectName": "goals"
+            "objectName": "Task"
           },
           {
-            "objectName": "tester"
+            "objectName": "Review"
           }
         ]
       },
