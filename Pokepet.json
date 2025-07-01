@@ -3171,7 +3171,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156878,
+        "zoomFactor": 0.6244537826600036,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22481,7 +22481,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "greenstart_Hovered.png2",
+              "texture": "Yellow Button_Hovered.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -22537,7 +22537,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "greenstart_pressed.png",
+              "texture": "Yellow Button_Pressed.png",
               "tiled": false,
               "topMargin": 32,
               "width": 256
