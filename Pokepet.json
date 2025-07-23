@@ -2421,22 +2421,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "DecoratedButton",
-          "persistentUuid": "511ecc2d-d45c-49fe-be87-968fb26b8083",
-          "width": 0,
-          "x": 338,
-          "y": 709,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
