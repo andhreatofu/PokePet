@@ -1,7 +1,7 @@
 {
   "firstLayout": "opening",
   "gdVersion": {
-    "build": 233,
+    "build": 237,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -2418,6 +2418,22 @@
           "x": 214,
           "y": 1118,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DecoratedButton",
+          "persistentUuid": "511ecc2d-d45c-49fe-be87-968fb26b8083",
+          "width": 0,
+          "x": 338,
+          "y": 709,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
