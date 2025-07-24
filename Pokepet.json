@@ -20289,7 +20289,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.511778403521039,
+        "zoomFactor": 0.7370816317994339,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20570,6 +20570,23 @@
           "x": 230,
           "y": 607,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 69,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTextInput",
+          "persistentUuid": "a86916e2-995c-4c74-8679-a3cb2c87f547",
+          "width": 280,
+          "x": 217,
+          "y": 606,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21724,6 +21741,34 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewTextInput",
+          "type": "TextInput::TextInputObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "initialValue": "",
+            "placeholder": "00:00:00",
+            "fontResourceName": "",
+            "fontSize": 50,
+            "inputType": "text",
+            "textColor": "0;0;0",
+            "fillColor": "255;255;255",
+            "fillOpacity": 255,
+            "borderColor": "0;0;0",
+            "borderOpacity": 0,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false,
+            "spellCheck": false,
+            "paddingX": 2,
+            "paddingY": 1,
+            "textAlign": "center",
+            "maxLength": 0
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -21787,6 +21832,9 @@
           },
           {
             "objectName": "NewPanelSprite2"
+          },
+          {
+            "objectName": "NewTextInput"
           }
         ]
       },
